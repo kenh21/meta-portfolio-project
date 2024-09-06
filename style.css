@@ -1,0 +1,92 @@
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+picture {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+.main-page {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-columns: 1fr;    
+}
+
+header {
+    display: grid;
+    grid-column: span 4;
+}
+
+nav {
+    display: grid;
+    grid-column: span 4;
+}
+
+main {
+    display: grid;
+    grid-column: span 4;
+}
+
+.sales {
+    display: grid;
+    
+}
+
+.main-products {
+    display: grid;
+}
+
+footer {
+    display: grid;
+    grid-column: span 4;
+}
+
+.prod1 {
+    grid-column-start: 1;
+    grid: span 2;
+}
+
+.prod2 {
+    grid-column-start: 3;
+    grid: span 2;
+}
+
+.prod3 {
+    grid-column-start: 1;
+    grid: span 2;
+}
+
+.prod4 {
+    grid-column-start: 3;
+    grid: span 2;
+}
+
+.sales1 {
+    grid-column-start: 1;
+    grid: span 1;
+}
+.sales2 {
+    grid-column-start: 2;
+    grid: span 1;
+}
+.sales3 {
+    grid-column-start: 3;
+    grid: span 1;
+}
+.sales4 {
+    grid-column-start: 4;
+    grid: span 1;
+}
