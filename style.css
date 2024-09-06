@@ -31,7 +31,7 @@ img {
     font-size: 1.2rem;
 }
 
-.sale-product-price {
+.sales .price {
     color: red;
     font-weight: bold;
 }
