@@ -22,6 +22,20 @@ picture {
 img {
     max-width: 100%;
 }
+
+.main-product-name {
+    font-size: 1.5rem;
+}
+
+.price, .sale-product-price {
+    font-size: 1.2rem;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
 .main-page {
     display: grid;
     gap: 1.5rem;
